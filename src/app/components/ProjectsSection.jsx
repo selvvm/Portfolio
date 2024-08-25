@@ -10,7 +10,7 @@ const projectsData = [
     title: "BugFlow",
     description:
       "A modern issue tracking application built with Next.js, NextAuth, Prisma, Tailwind CSS, and MySQL.",
-    image: "/images/projects/issuetracker.png",
+    image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/selvvm/BugFlow",
     previewUrl: "/",
@@ -20,7 +20,7 @@ const projectsData = [
     title: "Sports Live",
     description:
       "Real-time sports updates application using Spring Boot, Angular, and Socket.IO",
-    image: "/images/projects/sportslive.png",
+    image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/selvvm/Sports-info-live",
     previewUrl: "/",
