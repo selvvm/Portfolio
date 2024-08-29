@@ -15,6 +15,7 @@ const projectsData = [
     gitUrl: "https://github.com/selvvm/LinkInsight-AI",
     previewUrl: "https://link-insight-ai.vercel.app/",
   },
+
   {
     id: 2,
     title: "BugFlow",
@@ -25,6 +26,7 @@ const projectsData = [
     gitUrl: "https://github.com/selvvm/BugFlow",
     previewUrl: "/",
   },
+
   {
     id: 3,
     title: "Sports Live",
@@ -35,15 +37,18 @@ const projectsData = [
     gitUrl: "https://github.com/selvvm/Sports-info-live",
     previewUrl: "/",
   },
+
   {
     id: 4,
-    title: "Blog-Go",
-    description: "AI-powered blog application using Java, Spring Boot, and React",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/selvvm/Blog-Go-An-Ai-powered-web-application",
+    title: "TinyTorch",
+    description:
+      "A C++ implementation of a simple neural network designed to solve the XOR problem using a feedforward architecture with backpropagation.",
+    image: "/images/projects/5.png", // You'll need to add this image
+    tag: ["All", "Systems"],
+    gitUrl: "https://github.com/selvvm/Training-Single-Neuron-in-C-",
     previewUrl: "/",
   },
+
   {
     id: 5,
     title: "Custom Heap Allocator",
@@ -53,6 +58,7 @@ const projectsData = [
     gitUrl: "https://github.com/selvvm/Custom-Heap-Allocator-with-Garbage-Collector-",
     previewUrl: "/",
   },
+
   {
     id: 6,
     title: "TCP Chat Server in Go",
@@ -63,16 +69,17 @@ const projectsData = [
     gitUrl: "https://github.com/selvvm/Mutichat-Like-YT-or-insta-live-chat",
     previewUrl: "/",
   },
+
   {
     id: 7,
-    title: "TinyTorch",
-    description:
-      "A C++ implementation of a simple neural network designed to solve the XOR problem using a feedforward architecture with backpropagation.",
-    image: "/images/projects/5.png", // You'll need to add this image
-    tag: ["All", "Systems"],
-    gitUrl: "https://github.com/selvvm/Training-Single-Neuron-in-C-",
+    title: "Blog-Go",
+    description: "AI-powered blog application using Java, Spring Boot, and React",
+    image: "/images/projects/5.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/selvvm/Blog-Go-An-Ai-powered-web-application",
     previewUrl: "/",
   },
+
   {
     id: 8,
     title: "ShopinglyX",
@@ -80,7 +87,7 @@ const projectsData = [
       "An e-commerce website built with Django, featuring a payment gateway integration.",
     image: "/images/projects/3.png", // You'll need to add this image
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/selvvm/ShopinglyX/ShopinglyX",
+    gitUrl: "https://github.com/selvvm/ShoppinglyX/tree/main/ShoppinglyX",
     previewUrl: "/",
   },
 ];
