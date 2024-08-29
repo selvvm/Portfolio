@@ -7,26 +7,36 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "LinkInsight AI",
+    description:
+      "A Next.js-based web application that leverages AI to analyze and provide insights on web content, utilizing TypeScript for type-safe code and Tailwind CSS for responsive design.",
+    image: "/images/projects/linkinsight.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/selvvm/LinkInsight-AI",
+    previewUrl: "https://link-insight-ai.vercel.app/",
+  },
+  {
+    id: 2,
     title: "BugFlow",
     description:
       "A modern issue tracking application built with Next.js, NextAuth, Prisma, Tailwind CSS, and MySQL.",
-    image: "/images/projects/5.png",
+    image: "/images/projects/issuetracker.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/selvvm/BugFlow",
     previewUrl: "/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Sports Live",
     description:
       "Real-time sports updates application using Spring Boot, Angular, and Socket.IO",
-    image: "/images/projects/5.png",
+    image: "/images/projects/sportslive.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/selvvm/Sports-info-live",
     previewUrl: "/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Blog-Go",
     description: "AI-powered blog application using Java, Spring Boot, and React",
     image: "/images/projects/5.png",
@@ -35,7 +45,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Custom Heap Allocator",
     description: "Custom heap allocator with garbage collector implemented in C",
     image: "/images/projects/5.png",
@@ -44,7 +54,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 5,
+    id: 6,
     title: "TCP Chat Server in Go",
     description:
       "A simple TCP chat server implemented in Go that allows multiple clients to connect and communicate in real-time.",
@@ -54,8 +64,8 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 6,
-    title: "Simple Neural Network for XOR Problem",
+    id: 7,
+    title: "TinyTorch",
     description:
       "A C++ implementation of a simple neural network designed to solve the XOR problem using a feedforward architecture with backpropagation.",
     image: "/images/projects/5.png", // You'll need to add this image
@@ -64,13 +74,13 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 7,
+    id: 8,
     title: "ShopinglyX",
     description:
       "An e-commerce website built with Django, featuring a payment gateway integration.",
     image: "/images/projects/3.png", // You'll need to add this image
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/selvvm/ShopinglyX",
+    gitUrl: "https://github.com/selvvm/ShopinglyX/ShopinglyX",
     previewUrl: "/",
   },
 ];

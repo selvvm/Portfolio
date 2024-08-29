@@ -19,7 +19,7 @@ const HeroSection = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
               Hello, I&apos;m{" "}
             </span>
-            <br></br>
+            <br />
             <TypeAnimation
               sequence={[
                 "Mariselvam",
@@ -39,22 +39,22 @@ const HeroSection = () => {
             user-friendly applications and innovative solutions.
           </p>
           <div>
-            <Link
-              href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-blue-600 hover:bg-blue-700 text-white"
-            >
-              Hire Me
-            </Link>
             <a
-              href="https://drive.google.com/file/d/1eviI00qEtUYtwv8kxXKzZ_SIfPfRvWnj/view?usp=sharing"
+              href="https://drive.google.com/file/d/1pAZZZ4OMjM_Vz-vgwPk2xKQj2I2HkSHD/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-r from-blue-600 to-blue-400 hover:bg-slate-800 text-white mt-3"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-r from-blue-600 to-blue-400 hover:bg-slate-800 text-white mr-4"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
               </span>
             </a>
+            <Link
+              href="/#contact"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full bg-blue-600 hover:bg-blue-700 text-white mt-3"
+            >
+              Hire Me
+            </Link>
           </div>
         </motion.div>
         <motion.div
